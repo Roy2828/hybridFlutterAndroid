@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.roy.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.roy.myapplication.InsertAndroidViewFlutterWidget" />
+        <activity android:name="com.roy.myapplication.JumpActivityFlutterWidget" />
+        <activity android:name="com.roy.myapplication.TestActivity" />
+        <activity android:name="com.roy.myapplication.PageFlutterActivity" />
+        <activity android:name="com.roy.myapplication.PageFlutterFragmentActivity" />
+        <activity android:name="com.roy.myapplication.DebugNoBlackActivity" />
+        <activity android:name="com.roy.myapplication.Page1ParamActivity" />
+        <activity android:name="com.roy.myapplication.Page2Activity" />
+        <activity android:name="com.roy.myapplication.Page1Activity" />
+        <activity android:name="com.roy.myapplication.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
